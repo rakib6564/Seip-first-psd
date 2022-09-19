@@ -1,0 +1,143 @@
+/* body section start */
+body {
+    margin: 0 auto;
+}
+
+.container {
+    padding: 25px 25%;
+}
+
+
+h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Syne', sans-serif;
+}
+
+button{
+    padding: 12px 22px;
+    border: none;
+    background-color: #7b77c9;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+button:hover {
+background-color: white;
+color: #7b77c9;
+border: 1px solid #7b77c9;
+}
+
+
+
+
+/* heading section start */
+header {
+    background: #23232e;
+    text-align: center;
+    color: white;
+    padding: 35px;
+}
+
+header img {
+    width: 55px;
+}
+
+header p {
+    line-height: 25px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.fa-solid.fa-angle-down {
+    border: 2px solid white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    margin-top: 20px;
+    display: inline-block;
+
+}
+
+
+/* what i do section start */
+
+.what-i-do,
+.photography,
+footer {
+    text-align: center;
+    overflow: hidden;
+}
+
+.what-i-do>p {
+    line-height: 25px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.col {
+    width: 31.33%;
+    margin: 0% 1%;
+    float: left;
+    text-align: left;
+}
+
+/* my work section start */
+
+.my-work,
+.subscribe{
+    overflow: hidden;
+    text-align: center;
+    background: #23232e;
+    color: white;
+
+}
+
+.my-work .menu {
+    margin-bottom: 25px;
+
+}
+
+.my-work .menu a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 12px 5px;
+    font-size: 15px;
+    margin: 0px 5px;
+    display: inline-block;
+    text-transform: uppercase;
+
+}
+
+.my-work .menu a:hover {
+
+    border: 1px solid white;
+}
+
+.col img {
+    width: 100%;
+}
+
+.my-work .col{
+    text-align: center;
+}
+
+
+input{
+    padding: 12px 22px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    color: black;
+}
+
+
+footer{
+    padding: 45px 0;
+}
+
+footer i{
+font-size: 22px;
+color: gray;}
